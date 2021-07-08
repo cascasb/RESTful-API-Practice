@@ -20,7 +20,9 @@ namespace RESTful_API_Practice.Controllers
         }
 
         // GET: api/Bakery
-        public IEnumerable<MenuItem> Get()
+        [Route("api/Bakery/GetMenu")]
+        [HttpGet]
+        public IEnumerable<MenuItem> GetMenu()
         {
             return menu;
         }
@@ -38,9 +40,9 @@ namespace RESTful_API_Practice.Controllers
         }
 
         // GET: api/Bakery/nameOfItem
-        [Route("api/Bakery/{name}")]
+        [Route("api/Bakery/Name/{name}")]
         [HttpGet]
-        public MenuItem Get([FromUri]string name)
+        public MenuItem GetItemByName([FromUri]string name)
         {
             //return menu.Where(x => x.ItemName == name).FirstOrDefault();
             foreach (var item in menu)
@@ -54,15 +56,16 @@ namespace RESTful_API_Practice.Controllers
         }
 
         // GET: api/Bakery/#
-        [Route("api/Bakery/#")]
+        [Route("api/Bakery/Cal/{cal}")]
         [HttpGet]
-        public MenuItem Get([FromUri] int Cal)
+        public MenuItem GetItemByCal(int cal)
         {
-            return menu.Where(x => x.Calories == Cal).FirstOrDefault();
+            return menu.Where(x => x.Calories == cal).FirstOrDefault();
         }
 
+
         // POST: api/Bakery
-        public void Post(MenuItem item)
+        public void PostItem(MenuItem item)
         {
             menu.Add(item);
         }
