@@ -1,0 +1,85 @@
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\RESTful API Practice.dll.config
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\RESTful API Practice.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\RESTful API Practice.pdb
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\csc.exe
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\csc.exe.config
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\csc.rsp
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\csi.exe
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\csi.exe.config
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\csi.rsp
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.AppContext.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Console.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.IO.Compression.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Net.Http.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Net.Sockets.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.ValueTuple.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Xml.XPath.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\vbc.exe
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\vbc.exe.config
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\vbc.rsp
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\VBCSCompiler.exe
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\Antlr3.Runtime.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\Newtonsoft.Json.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Net.Http.Formatting.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Helpers.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Http.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Http.WebHost.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Mvc.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Optimization.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Razor.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.WebPages.Deployment.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.WebPages.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.WebPages.Razor.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\WebGrease.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\Newtonsoft.Json.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Net.Http.Formatting.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Helpers.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Http.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Http.WebHost.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Mvc.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Optimization.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.Razor.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.WebPages.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.WebPages.Deployment.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\System.Web.WebPages.Razor.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\Antlr3.Runtime.pdb
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\obj\Debug\RESTful API Practice.csproj.AssemblyReference.cache
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\obj\Debug\RESTful API Practice.csproj.CoreCompileInputs.cache
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\obj\Debug\RESTful API Practice.csproj.CopyComplete
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\obj\Debug\RESTful API Practice.dll
+C:\Users\casca\Documents\FormFree\Learning\RESTful API Practice\RESTful API Practice\obj\Debug\RESTful API Practice.pdb
