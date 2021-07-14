@@ -7,25 +7,44 @@ using RESTful_API_Practice.Models;
 
 namespace UnitTestProject1
 {
-    [TestClass]
+    /*[TestClass]
     public class UnitTest1
     {
         [TestMethod]
         public void TestGetMenu()
         {
-            MenuItem[] correctArray = new MenuItem[3];
-            correctArray[0] = (new MenuItem { ItemName = "Black Coffee", Calories = 1, Price = "$1.00" });
-            correctArray[1] = (new MenuItem { ItemName = "Croissant", Calories = 250, Price = "$3.00" });
-            correctArray[2] = (new MenuItem { ItemName = "Cheesecake Slice", Calories = 400, Price = "$3.50" });
+            IBakeryProduct[] correctInv = new IBakeryProduct[3];
+
+            correctInv[0] = (new FoodProduct { ProductName = "Croissant", Calories = 250, Price = "$3.00", NumInStock = 3 });
+            correctInv[1] = (new DrinkProduct { ProductName = "Latte", Calories = 200, Price = "$2.50", IsDecaf = false, NumInStock = 0 });
+            correctInv[2] = (new DishesProduct { ProductName = "Souvenir Mug", Price = "$5.00", Color = "Blue", NumInStock = 2, IsDishwasherSafe = true });
 
             BakeryController bakeryController = new BakeryController();
-            MenuItem[] array = bakeryController.GetMenu().ToArray();
+            IBakeryProduct[] retrievedArray = bakeryController.GetMenu().ToArray();
 
-            for(int x = 0; x < array.Length; x++)
+
+
+            for(int x = 0; x < retrievedArray.Length; x++)
             {
-                Assert.AreEqual(array[x].ItemName, correctArray[x].ItemName);
-                Assert.AreEqual(array[x].Calories, correctArray[x].Calories);
-                Assert.AreEqual(array[x].Price, correctArray[x].Price);
+                Assert.AreEqual(correctInv[x].ProductName, retrievedArray[x].ProductName);
+                Assert.AreEqual(retrievedArray[x].Price, retrievedArray[x].Price);
+                Assert.AreEqual(retrievedArray[x].NumInStock, retrievedArray[x].NumInStock);
+                if (retrievedArray[x] is FoodProduct)
+                {
+                    Assert.AreEqual(retrievedArray[x].Calories == correctInv[x].Calories);
+                }
+                if (retrievedArray[x] is IDrinkProduct)
+                {
+
+                }
+                if (retrievedArray[x] is DishesProduct)
+                {
+
+                }
+            }
+            foreach (IFoodProduct food in retrievedArray)
+            {
+                Assert.AreEqual(retrievedArray[])
             }
         }
 
@@ -33,9 +52,9 @@ namespace UnitTestProject1
         public void TestGetItemNames()
         {
             List<string> correctList = new List<string>();
-            correctList.Add("Black Coffee");
             correctList.Add("Croissant");
-            correctList.Add("Cheesecake Slice");
+            correctList.Add("Latte");
+            correctList.Add("Souvenir Mug");
 
             BakeryController bakeryController = new BakeryController();
             List<String> list = bakeryController.GetItemNames().ToList();
@@ -46,14 +65,15 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestGetItemByNameBlackCoffee()
         {
-            MenuItem correctItem = new MenuItem { ItemName = "Black Coffee", Calories = 1, Price = "$1.00" };
+            DrinkProduct correctItem = (new DrinkProduct { ProductName = "Latte", Calories = 200, Price = "$2.50", IsDecaf = false, NumInStock = 0 });
 
             BakeryController bakeryController = new BakeryController();
-            MenuItem item = bakeryController.GetItemByName("Black Coffee");
+            IBakeryProduct item = bakeryController.GetItemByName("Latte");
 
-            Assert.AreEqual(item.ItemName, correctItem.ItemName);
-            Assert.AreEqual(item.Calories, correctItem.Calories);
+            Assert.AreEqual(item.ProductName, correctItem.ProductName);
             Assert.AreEqual(item.Price, correctItem.Price);
+            Assert.AreEqual(item.NumInStock, correctItem.NumInStock);
+            
         }
 
         [TestMethod]
@@ -120,5 +140,5 @@ namespace UnitTestProject1
             Assert.AreEqual(item.Calories, correctItem.Calories);
             Assert.AreEqual(item.Price, correctItem.Price);
         }
-    }
+    }*/
 }

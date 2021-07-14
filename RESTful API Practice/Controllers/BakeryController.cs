@@ -10,21 +10,21 @@ namespace RESTful_API_Practice.Controllers
 {
     public class BakeryController : ApiController
     {
-        List<MenuItem> menu = new List<MenuItem>();
+        List<IBakeryProduct> inventory = new List<IBakeryProduct>();
 
         public BakeryController()
         {
-            menu.Add(new MenuItem { ItemName = "Black Coffee", Calories = 1, Price = "$1.00" });
-            menu.Add(new MenuItem { ItemName = "Croissant", Calories = 250, Price = "$3.00" });
-            menu.Add(new MenuItem { ItemName = "Cheesecake Slice", Calories = 400, Price = "$3.50" });
+            inventory.Add(new FoodProduct { ProductName = "Croissant", Calories = 250, Price = "$3.00", NumInStock = 3 });
+            inventory.Add(new DrinkProduct { ProductName = "Latte", Calories = 200, Price = "$2.50", IsDecaf = false, NumInStock = 0 });
+            inventory.Add(new DishesProduct { ProductName = "Souvenir Mug", Price = "$5.00", Color = "Blue", NumInStock = 2, IsDishwasherSafe = true }) ;
         }
 
         // GET: api/Bakery
-        [Route("api/Bakery/GetMenu")]
+        [Route("api/Bakery/GetInventory")]
         [HttpGet]
-        public IEnumerable<MenuItem> GetMenu()
+        public IEnumerable<IBakeryProduct> GetMenu()
         {
-            return menu;
+            return inventory;
         }
 
         [Route("api/Bakery/GetItemNames")]
@@ -32,9 +32,9 @@ namespace RESTful_API_Practice.Controllers
         public IEnumerable<String> GetItemNames()
         {
             List<string> output = new List<String>();
-            foreach (var item in menu)
+            foreach (var item in inventory)
             {
-                output.Add(item.ItemName);
+                output.Add(item.ProductName);
             }
             return output;
         }
@@ -42,12 +42,12 @@ namespace RESTful_API_Practice.Controllers
         // GET: api/Bakery/nameOfItem
         [Route("api/Bakery/Name/{name}")]
         [HttpGet]
-        public MenuItem GetItemByName([FromUri]string name)
+        public IBakeryProduct GetItemByName([FromUri]string name)
         {
             //return menu.Where(x => x.ItemName == name).FirstOrDefault();
-            foreach (var item in menu)
+            foreach (var item in inventory)
             {
-                if (item.ItemName == name)
+                if (item.ProductName == name)
                 {
                     return item;
                 }
@@ -58,16 +58,23 @@ namespace RESTful_API_Practice.Controllers
         // GET: api/Bakery/#
         [Route("api/Bakery/Cal/{cal}")]
         [HttpGet]
-        public MenuItem GetItemByCal(int cal)
+        public IBakeryProduct GetItemByCal(int cal)
         {
-            return menu.Where(x => x.Calories == cal).FirstOrDefault();
+            foreach (IFoodProduct item in inventory)
+            {
+                if (item.Calories == cal)
+                {
+                    return item;
+                }
+            }
+            return null;
         }
 
 
         // POST: api/Bakery
-        public void PostItem(MenuItem item)
+        public void PostItem(IBakeryProduct item)
         {
-            menu.Add(item);
+            inventory.Add(item);
         }
 
         // PUT: api/Bakery/5
